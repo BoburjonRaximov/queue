@@ -7,7 +7,7 @@ func main() {
 }
 
 func TestQueue() {
-	queue := NewQueue() // var queue Queue shunday elon qilsak ham boladi
+	queue := NewQueue()
 	queue.AddQueue(101)
 	fmt.Println("queue:", queue)
 	queue.AddQueue(24).AddQueue(77)
